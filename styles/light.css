@@ -9,7 +9,8 @@
         --accent-color: #FF8DCB;
         --nav-color: #323035;
         --question-color: #353430;
-        --nav-color-color-opacity: #35343040;
+        --nav-color-color-opacity: rgba(50, 49, 45, 0.4);
+        ;
         --no-focus-accent-color: #FFC2E6;
         --accent-color-at-background: #353430;
         --background-image: url(../images/cover-image-light.png);
@@ -17,7 +18,7 @@
         --description-color: #353430;
     }
     
-    .theme-light .decorated_mark_REC {
+    .theme-light .decorated-mark-REC {
         /* Вам также нужно будет написать ряд подобных селекторов */
         display: none;
     }
@@ -29,14 +30,15 @@
             --accent-color: #FF8DCB;
             --nav-color: #323035;
             --question-color: #353430;
-            --nav-color-color-opacity: #35343040;
+            --nav-color-color-opacity: rgba(50, 49, 45, 0.4);
+            ;
             --no-focus-accent-color: #FFC2E6;
             --accent-color-at-background: #353430;
             --background-image: url(../images/cover-image-light.png);
             --background-color: #FFF1F7;
             --description-color: #353430;
         }
-        .theme-auto .decorated_mark_REC {
+        .theme-auto .decorated-mark-REC {
             /* Вам также нужно будет написать ряд подобных селекторов */
             display: none;
         }
