@@ -70,7 +70,7 @@ html {
     border-bottom: 1px solid var(--nav-color, #ff0070);
 }
 
-.decorated-mark-REC {
+.decorated-mark-rec {
     position: absolute;
     right: calc(var(--padding_main, clamp(10px, calc(10px + (20 - 10)*((100vw - 375px)/(768 - 375))), 20px)) + 28px);
     top: var(--padding_main, clamp(10px, calc(10px + (20 - 10)*((100vw - 375px)/(768 - 375))), 20px));
@@ -83,7 +83,7 @@ html {
     letter-spacing: 0%;
 }
 
-.decorated-mark-REC::after {
+.decorated-mark-rec::after {
     content: '';
     position: absolute;
     width: 9px;
@@ -133,10 +133,9 @@ html {
 
 .header_description,
 .content-section_header,
-.why_list_item_header,
-.reasons_list_item_header,
-.methods_header,
+.content-section_list_item_description,
 .methods_list_header,
+.methods_header,
 .pictures_header {
     font-weight: 700;
     font-size: 18px;
@@ -145,10 +144,8 @@ html {
     letter-spacing: 0%;
 }
 
-.why_list_item_description,
-.reasons_list_item_description,
-.methods_list_item_header,
-.methods_list_item_description {
+.content-section_list_item_description,
+.content-section_list_item_header.thin_font {
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
@@ -192,9 +189,7 @@ html {
     color: var(--question-color, #ff0070);
 }
 
-.why_list_item_description,
-.reasons_list_item_description,
-.methods_list_item_description {
+.content-section_list_item_description {
     color: var(--description-color, #F1B2CE);
 }
 
@@ -246,15 +241,11 @@ html {
     margin-bottom: 20px;
 }
 
-.why_list_item_header,
-.reasons_list_item_header,
-.methods_list_item_header {
+.content-section_list_item_header {
     margin-bottom: 10px;
 }
 
-.why_list_item_description:not(:first-of-type),
-.reasons_list_item_description:not(:first-of-type),
-.methods_list_item_description:not(:first-of-type) {
+.content-section_list_item_description:not(:first-of-type) {
     margin-top: 10px;
 }
 

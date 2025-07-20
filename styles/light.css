@@ -18,7 +18,7 @@
         --description-color: #353430;
     }
     
-    .theme-light .decorated-mark-REC {
+    .theme-light .decorated-mark-rec {
         /* Вам также нужно будет написать ряд подобных селекторов */
         display: none;
     }
@@ -38,7 +38,7 @@
             --background-color: #FFF1F7;
             --description-color: #353430;
         }
-        .theme-auto .decorated-mark-REC {
+        .theme-auto .decorated-mark-rec {
             /* Вам также нужно будет написать ряд подобных селекторов */
             display: none;
         }
